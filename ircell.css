@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding:0;
+}
+#navigation{
+    //background-color: transparent;
+    height: 10vh;
+}
+.container-fluid{
+    height:10vh;
+    margin-top:2vh;
+   // margin-right:10vw;
+}
+a{
+    pading: 10px;
+    margin-right:1vw;
+}
+#logo{
+    height:5vh;
+    width:auto;
+    margin-top:-2vh;
+}
+video{
+    width:auto;
+    height:75vh;
+   // border: .2px solid black;
+}
+#notice-board{
+    background-color: antiquewhite;
+    height:70vh;
+}
+#video-box{
+    overflow: hidden;
+}
+.subtitles{
+    height:20vh;
+    text-align: center;
+   // margin-top: 9vh;
+}
+#about-us{
+    //background-color: aqua;
+}
+H3{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -70%);
+}
+.subtitles:hover{
+    background-color: grey;
+}
+#dir-vedeo{
+    height:50vh;
+    overflow: hidden;
+}
+#smthng{
+    height:50vh;
+}
+#media{
+    height:40vh;
+    background-color: grey;
+}
+#foorter{
+    height:40vh;
+    background-color: aqua;
+}
