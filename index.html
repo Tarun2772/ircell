@@ -5,13 +5,14 @@
     <title>International Relations Cell</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Lora|Merriweather|Noto+Serif|Raleway" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="ircell.css" type="text/css">
 </head>
 <body>
 <!-- Tarun Kumar IR CELL WEB TEAM -->
     <nav class="navbar navbar-inverse navbar-fixed-top" id="navigation">
-        <div class="container-fluid">
+        <div class="container-fluid" id="nav-box">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#"><img src="abc.png" id="logo"></a>
                 </div>
@@ -34,12 +35,14 @@
     </nav>
     <div id="video-box">
         <video autoplay muted id="background" preload="auto" loop>
-            <source src="director.MP4" type="video/mp4">
+            <source src="director.mp4" type="video/mp4">
             <source src="director.ogg" type="video/ogg">
         </video>
     </div>
     <div id="welcome_notice">
-        <H1> IIT KHARAGPUR</H1>
+        <H1 style="font-weight: bold; color:ghostwhite; font-size:3.5em;">
+            Indian Institute of Technology<BR>Kharagpur
+        </H1>
     </div>
     <div class="container-fluid" style="margin-top:10vh">
         <div class="row">
@@ -51,15 +54,43 @@
         <div class="row" id="page_load">
             <div class="col-sm-3 subtitles" id="about-us">
                 <H2>About Us</H2>
+                <p id="about-us-detail">
+                    <span style="font-family: 'Raleway', sans-serif; font-size: 3em">About us</span><BR>
+                    <span style="font-family: 'Raleway', sans-serif; font-size: 1.5em; ">Indian Institute of Technology, Kharagpur serving not only the
+                    native nation but the whole world. Being the Mother of all such
+                    Indian Institue of Technology, we have the largest alumni network.
+                    <a href="#">Read More...</a></span>
+                </p>
             </div>
             <div class="col-sm-3 subtitles" id="research">
                 <H2>Research</H2>
+                <p id="research-detail">
+                    <span style="font-family: 'Raleway', sans-serif; font-size: 3em">Research</span><BR>
+                    <span style="font-family: 'Raleway', sans-serif; font-size: 1.5em; ">Indian Institute of Technology, Kharagpur serving not only the
+                    native nation but the whole world. Being the Mother of all such
+                    Indian Institue of Technology, we have the largest alumni network.
+                    <a href="#">Read More...</a></span>
+                </p>
             </div>
             <div class="col-sm-3 subtitles" id="alumni">
                 <H2>Alumni</H2>
+                <p id="alumni-detail">
+                    <span style="font-family: 'Raleway', sans-serif; font-size: 3em">Alumni</span><BR>
+                    <span style="font-family: 'Raleway', sans-serif; font-size: 1.5em; ">Indian Institute of Technology, Kharagpur serving not only the
+                    native nation but the whole world. Being the Mother of all such
+                    Indian Institue of Technology, we have the largest alumni network.
+                    <a href="#">Read More...</a></span>
+                </p>
             </div>
             <div class="col-sm-3 subtitles" id="awards">
                 <H2>Awards and achievements</H2>
+                <p id="awards-detail">
+                    <span style="font-family: 'Raleway', sans-serif; font-size: 3em">Awards and Acievements</span><BR>
+                    <span style="font-family: 'Raleway', sans-serif; font-size: 1.3em; ">Indian Institute of Technology, Kharagpur serving not only the
+                    native nation but the whole world. Being the Mother of all such
+                    Indian Institue of Technology, we have the largest alumni network.
+                    <a href="#">Read More...</a></span>
+                </p>
             </div>
         </div>
         <div class="row">
@@ -71,10 +102,10 @@
         <div class="row">
             <div class="col-sm-9" id="media">
                 <div class="row">
-                    <div class="col-sm-6" id="media_art1">
+                    <div class="col-sm-5" id="media_art1">
                         <img src="nso.jpg" id="nso"><BR>
-                        NSO H&F and its Relevance :<BR>
-                        Alarm at 5, rushing to find the cycle keys and
+                        <span style="font-weight: bold;font-family: 'Merriweather', serif;margin-left: 6vw;">NSO H&F and its Relevance</span><BR>
+                        <span style="font-family: 'Raleway', sans-serif;">Alarm at 5, rushing to find the cycle keys and
                         reaching the stadium panting but oops... you will
                         not be given any attendance because you are late”,
                         going to room crying upon the efforts to make a
@@ -86,23 +117,24 @@
                         but that’s the fact that your initiative will not add
                         to your grades so,
                         leave it. This is more or less the dilemma students are
-                        facing in NSO H&F. <a href="http://awaaziitkgp.org/nso.php">Read more...</a>
+                        facing in NSO H&F. <a href="http://awaaziitkgp.org/nso.php">Read more...</a></span>
                     </div>
                     <div class="col-sm-3" id="media_art2">
 
                     </div>
-                    <div class="col-sm-3" id="media_art3">
-
+                    <div class="col-sm-4" id="media_art3">
+                        BY VIVEK
                     </div>
                     <div class="col-sm-3" id="media_art4">
 
                     </div>
-                    <div class="col-sm-3" id="media_art5">
-
+                    <div class="col-sm-4" id="media_art5">
+                        BY VIVEK
                     </div>
                 </div>
             </div>
             <div class="col-sm-3 yadav" id="news">
+                <span style="font-family: 'Raleway', sans-serif; font-size: 1.5em; text-align: center;font-weight: bold;">Upcoming Events</span>
                 <ul id="viveks">
                     <li><span>10/10/2007</span><a href="#">Inside of which is the code that you want to run</a></li>
                     <li><span>10/10/2007</span><a href="#">Inside of which is the code that you want to run</a></li>
@@ -164,5 +196,6 @@
         $("ul#viveks").liScroll();
     });
 </script>
+<script src="ircell.js"></script>
 </body>
 </html>
